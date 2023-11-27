@@ -7,9 +7,10 @@ function App() {
       <div className="flex flex-col h-screen w-screen items-center justify-center">
         
           <Asub />
+          {}
         
         <div>About | Portfolio | Contact</div>
-        <button className="border rounded-full border-white h-8 w-20">Resume</button>
+        <button className="border rounded-full border-white h-8 w-20">R&eacute;sum&eacute;</button>
       </div>
     </>
   );
