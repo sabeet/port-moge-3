@@ -9,7 +9,7 @@ function App() {
           <Asub />
         
         <div>About | Portfolio | Contact</div>
-        <button className="border rounded-full border-white h-8 w-20">R&eacute;sum&eacute;</button>
+        <button className="border rounded-full border-white h-8 w-20 animate-pulse">R&eacute;sum&eacute;</button>
       </div>
     </>
   );
