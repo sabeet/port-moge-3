@@ -1,16 +1,20 @@
-import "./App.css";
-import Asub from "./components/Asub";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 function App() {
+  const location = useLocation();
   return (
     <>
-      <div className="flex flex-col h-screen w-screen items-center justify-center">
-        
-          <Asub />
-        
-        <div>About | Portfolio | Contact</div>
-        <button className="border rounded-full border-white h-8 w-20 animate-pulse">R&eacute;sum&eacute;</button>
-      </div>
+      <Routes location={location} key={location.pathname}>
+        <Route index element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }

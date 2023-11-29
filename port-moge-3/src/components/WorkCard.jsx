@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkCard({ company, role, logo }) {
   return (
-    <div className="flex flex-row p-5 gap-2 border border-1">
+    <div className="flex flex-row p-5 gap-2 border border-gray-700 border-1">
       <div>
         <img
           src={logo}

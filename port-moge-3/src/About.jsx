@@ -1,10 +1,11 @@
 import React from 'react'
 import WorkCard from './components/WorkCard'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
     <>
-        <div className='flex flex-col h-fit w-screen p-8 justify-center'>
+        <div className='flex flex-col h-screen w-screen p-8 justify-center'>
             <div className="text-6xl">About</div>
             <br />
             <div className="text-xl">
@@ -25,13 +26,13 @@ function About() {
                 Like what you see?
             </div>
             <div className="text-xl">
-                Feel free to contact me <u><b>here</b></u>.
+                Feel free to contact me <Link to='/contact'><u>here</u></Link>.
             </div>
             <div className='py-4'>
                 {/*This is some blank space*/}
             </div>
             <div className="flex flex-row-reverse py-4">
-                <div>Return <u>home</u></div>
+                <div>Return <Link to='/'><u>home</u></Link></div>
             </div>
 
         </div>
