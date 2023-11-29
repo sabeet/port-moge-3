@@ -11,6 +11,16 @@ function Misc() {
         link="http://sabeet.me/hit.html"
         description="Using the MatterJS library, I created a fun interactive webpage that let's you drop some boxes from the top"
       />
+      <Entry
+        title="Discord Chemistry Checker Bot"
+        link="https://github.com/sabeet/ChemistryCheckerBot"
+        description="Made with Python and Discord, this bot was created to see how often users on my discord server would use Chemistry terms."
+      />
+      <Entry
+        title="Python Webscraper for Chemistry Terms"
+        link="https://github.com/sabeet/ChemistryCheckerBot"
+        description="A Python webscraper to extract Chemistry terms for the chemistry bot using BeautifulSoup"
+      />
     </>
   );
 }

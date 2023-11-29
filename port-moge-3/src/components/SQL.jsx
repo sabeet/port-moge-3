@@ -11,6 +11,11 @@ function SQL() {
         link="https://github.com/sabeet/SQL-Portfolio"
         description="Here lies the github repository of all the SQL based Leetcode questions i've done so far."
       />
+      <Entry
+        title="TSQL to Java"
+        link="https://github.com/sabeet/jdbc-JTable-Vector"
+        description="With the power of JDBC, Jtables, and Vectors, I used TSQL and Java to load data onto a jtable from Microsoft TSQL server using vectors."
+      />
     </>
   );
 }

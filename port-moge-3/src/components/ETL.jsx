@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function ETL() {
   return (
-    <div>ETL</div>
-  )
+    <>
+      <div className="text-xl text-center">Extraction, Transformation, & Load</div>
+      <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+    </>
+  );
 }
 
-export default ETL
+export default ETL;
