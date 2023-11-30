@@ -18,24 +18,24 @@ function Asub(stroke, fill) {
       version="1.1"
       id="Contours"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
       width="200px"
       height="400px"
       viewBox="-0.000000 -200.000000 1161.618652 1761.133667"
-      enable-background="new 0 0 1161.618652 1161.618652"
-      xml:space="preserve"
+      enableBackground="new 0 0 1161.618652 1161.618652"
+      xmlSpace="preserve"
       stroke="white"
       fill="white"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <motion.path
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -48,7 +48,7 @@ M709.977683 595.292146 C706.125682 582.462487 702.136836 569.352669 694.208938 5
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -61,7 +61,7 @@ M683.089104 816.046941 C692.374475 857.240549 705.022599 897.675657 720.866300 9
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -74,7 +74,7 @@ M320.041841 1755.589759 C319.869532 1749.784778 322.141356 1744.215134 324.45168
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -87,7 +87,7 @@ M856.385560 820.429605 C861.526565 835.405343 866.386296 850.528207 869.384152 8
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -100,7 +100,7 @@ M770.965591 1594.254027 C770.607293 1628.324307 777.046105 1662.452487 789.79367
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -113,7 +113,7 @@ M688.169488 173.300440 C689.329582 186.440723 684.498508 199.287913 679.749627 2
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -126,7 +126,7 @@ M669.085037 1240.823299 C677.755375 1251.649997 685.102247 1263.535533 690.91030
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },
@@ -139,7 +139,7 @@ M967.821168 1754.519298 C964.555819 1754.473627 961.290470 1754.427957 958.02512
         variants={icon}
         initial="hidden"
         animate="visible"
-        class="selected"
+        className="selected"
         opacity="1.000000"
         transition={{
           default: { duration: 2, ease: "easeInOut" },

@@ -9,12 +9,14 @@ function App() {
   const location = useLocation();
   return (
     <>
+    
       <Routes location={location} key={location.pathname}>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
     </>
   );
 }

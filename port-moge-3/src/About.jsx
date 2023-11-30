@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function About() {
   return (
     <>
-        <div className='flex flex-col h-screen w-screen p-8 justify-center'>
+        <div className='flex flex-col h-full w-screen p-8 justify-center'>
             <div className="text-6xl">About</div>
             <br />
             <div className="text-xl">
@@ -40,4 +40,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
