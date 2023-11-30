@@ -1,19 +1,4 @@
-.slide-in{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: black;
-    transform-origin: bottom;
-}
-
-.slide-out{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: black;
-    transform-origin: top;
+.page-enter-active,
+.page-exit-active {
+  transition: opacity 7s;
 }
