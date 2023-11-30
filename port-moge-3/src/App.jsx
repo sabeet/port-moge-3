@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Special from "./Special";
 
 function App() {
   const location = useLocation();
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/special" element={<Special />} />
       </Routes>
 
     </>
@@ -22,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+//ask the problem, my mom is at work, i
