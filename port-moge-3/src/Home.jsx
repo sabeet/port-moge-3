@@ -1,15 +1,27 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate, Link } from "react-router-dom";
 import "./Home.css";
 import Asub from "./components/Asub";
 import TransitionPage from "./TransitionPage";
 
 function Home() {
+  const [count, setCount] = useState(0);
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    setCount((prevCount) => prevCount + 1);
+    if (count === 6) {
+      navigate("/special");
+    }
+  };
+
   return (
     <>
       <TransitionPage>
         <div className="flex flex-col h-screen w-screen items-center justify-center">
-          <Asub />
-
+          <div onClick={handleClick}>
+            <Asub />
+          </div>
           <div>
             <Link to="/about">About</Link> |{" "}
             <Link to="/portfolio">Portfolio</Link> |{" "}
