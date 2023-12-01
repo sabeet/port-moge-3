@@ -28,7 +28,7 @@ function Home() {
             <Link to="/contact">Contact</Link>
           </div>
           <a
-            href="https://github.com/sabeet/resume/blob/main/Sabeet_Chowdhury_Resume_July_2023_v2.pdf"
+            href="https://github.com/sabeet/resume/blob/main/Sabeet_Chowdhury_Resume_October_2023.pdf"
             className="border rounded-full border-gray-700 h-7 w-20 text-center animate-pulse align hover:bg-slate-400 hover:text-slate-900"
           >
             R&eacute;sum&eacute;
