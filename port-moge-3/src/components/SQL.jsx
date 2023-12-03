@@ -16,6 +16,11 @@ function SQL() {
         link="https://github.com/sabeet/jdbc-JTable-Vector"
         description="With the power of JDBC, Jtables, and Vectors, I used TSQL and Java to load data onto a jtable from Microsoft TSQL server using vectors."
       />
+      <Entry
+        title="Data for Quotes Application"
+        link="https://github.com/sabeet/quote-database/blob/main/quotes.sql"
+        description="This is setup/creation of data for the Quotes Fullstack Application"
+      />
     </>
   );
 }
