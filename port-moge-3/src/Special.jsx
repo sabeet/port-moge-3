@@ -7,11 +7,9 @@ function Special() {
     <>
       <TransitionPage>
         <div className="flex flex-col h-screen w-screen justify-center p-8 gap-4">
-        <div className="text-2xl lg:text-6xl">
-            Special Thanks to my wife
-          </div>
+          <div className="text-2xl lg:text-6xl">Special Thanks to my wife</div>
           <div className="grid lg:grid-cols-4 text-4xl">
-            <div>Her design lives on.</div>
+            <div>Her vison for design is the best</div>
           </div>
           <br />
           <div className="text-2xl lg:text-6xl">

@@ -18,8 +18,13 @@ function Misc() {
       />
       <Entry
         title="Python Webscraper for Chemistry Terms"
-        link="https://github.com/sabeet/ChemistryCheckerBot"
+        link="https://github.com/sabeet/ChemistryWikiGlossaryScraper"
         description="A Python webscraper to extract Chemistry terms for the chemistry bot using BeautifulSoup"
+      />
+      <Entry
+        title="Finding the Average Date Difference from List of Dates"
+        link="https://github.com/sabeet/ChemistryWikiGlossaryScraper"
+        description="It is said that a country celebrates its independence from the UK every week. I use Python, Pandas, and Datetime to evaluate this information"
       />
     </>
   );
