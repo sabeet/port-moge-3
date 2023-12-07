@@ -23,7 +23,7 @@ function Misc() {
       />
       <Entry
         title="Finding the Average Date Difference from List of Dates"
-        link="https://github.com/sabeet/ChemistryWikiGlossaryScraper"
+        link="https://github.com/sabeet/average-date-diff-country-uk-independence"
         description="It is said that a country celebrates its independence from the UK every week. I use Python, Pandas, and Datetime to evaluate this information"
       />
     </>
