@@ -16,10 +16,9 @@ function Portfolio() {
   return (
     <>
       <TransitionPage>
-        <div className="flex flex-row-reverse text-xl md:text-4xl">
-          /Portfolio
+        <div className="flex p-1 flex-row-reverse text-xl md:text-4xl">
           <Link to="/">
-            <div className="hover:underline">Home</div>
+            <div className="hover:underline">Return home</div>
           </Link>
         </div>
         <div className="flex flex-row">

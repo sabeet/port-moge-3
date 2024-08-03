@@ -11,6 +11,11 @@ function Frontend() {
         link="https://sabeet.github.io/port-moge-2/"
         description="A simple react website I created to link professionals to my resume. Uses github workflows/action to update website"
       />
+      <Entry
+        title="Sabeet.dev"
+        link="https://sabeet.dev"
+        description=":)"
+      />
     </>
   );
 }

@@ -23,6 +23,11 @@ function About() {
           <br />
           <div className="flex flex-col lg:flex-row gap-4">
             <WorkCard
+              logo="https://banner2.cleanpng.com/20181128/okj/kisspng-consolidated-edison-solutions-inc-logo-energy-br-5bfeabdfa4a448.2980599915434167996744.jpg"
+              company="Consolidated Edison"
+              role="Systems Analyst · Data Engineer"
+            />
+            <WorkCard
               logo="https://1000logos.net/wp-content/uploads/2018/11/Capital-One-Logo.png"
               company="Capital One Financial"
               role="Data Analyst"
